@@ -12,18 +12,4 @@ Este projeto em C simula os movimentos das peças **Torre**, **Bispo** e **Rainh
 
 Este projeto faz parte de um desafio para praticar estruturas de repetição em linguagem C.
 
-## 📁 Arquivos no repositório
-
-- `xadrez.c` — Código-fonte principal.
-- `README.md` — Este arquivo de explicação.
-
-## 🚀 Como executar
-
-1. Compile o código com um compilador C, por exemplo:
-   ```bash
-   gcc xadrez.c -o xadrez
-
-2. Execute o programa:
-./xadrez
-
 Desenvolvido por salles1511
