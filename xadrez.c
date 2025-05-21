@@ -24,5 +24,23 @@ int main() {
         k++;
     } while (k <= 8);
 
+    // Movimento do Cavalo (for + while aninhado)
+    printf("\nMovimento do Cavalo:\n");
+
+    int passos_baixo = 2;
+    int passos_esquerda = 1;
+
+    for (i = 1; i <= passos_baixo; i++) {
+        printf("Baixo\n");
+
+        int contador = 1;
+        while (contador <= passos_esquerda && i == passos_baixo) {
+            printf("Esquerda\n");
+            contador++;
+        }
+    }
+
+
+    
     return 0;
 }
